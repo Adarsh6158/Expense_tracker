@@ -1,0 +1,374 @@
+171104 22:50:44 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+171104 22:50:44 [Note] Plugin 'FEDERATED' is disabled.
+171104 22:50:44 InnoDB: The InnoDB memory heap is disabled
+171104 22:50:44 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+171104 22:50:44 InnoDB: Compressed tables use zlib 1.2.8
+171104 22:50:44 InnoDB: Using Linux native AIO
+171104 22:50:44 InnoDB: Initializing buffer pool, size = 128.0M
+171104 22:50:44 InnoDB: Completed initialization of buffer pool
+171104 22:50:44 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+171104 22:50:44  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+171104 22:50:44  InnoDB: Waiting for the background threads to start
+171104 22:50:45 InnoDB: 5.5.47 started; log sequence number 273426789176
+171104 22:50:45 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+171104 22:50:45 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+171104 22:50:45 [Note] Server socket created on IP: '127.0.0.1'.
+171104 22:50:45 [Note] Event Scheduler: Loaded 0 events
+171104 22:50:45 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.47-0ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_invoices' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_invoices'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_order_items' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_order_items'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_orders' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_orders'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_predif_common2contests' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_predif_common2contests'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_preferences' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_preferences'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_restarts' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_restarts'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_roster_settings' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_roster_settings'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_transactions' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_transactions'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_trash_talk' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_trash_talk'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_users_custom_fields' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_users_custom_fields'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/cont_weeks' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/cont_weeks'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/contest_admins' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/contest_admins'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/contest_notes' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/contest_notes'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/contests' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/contests'
+171104 22:50:46 [ERROR] /usr/sbin/mysqld: Table './contestg_live/contests_odds_book' is marked as crashed and should be repaired
+171104 22:50:46 [Warning] Checking table:   './contestg_live/contests_odds_book'
+171104 22:50:48 [ERROR] /usr/sbin/mysqld: Table './contestg_live/contests_schedule' is marked as crashed and should be repaired
+171104 22:50:48 [Warning] Checking table:   './contestg_live/contests_schedule'
+171104 22:50:49 [ERROR] /usr/sbin/mysqld: Table './contestg_live/contests_tiebreakers' is marked as crashed and should be repaired
+171104 22:50:49 [Warning] Checking table:   './contestg_live/contests_tiebreakers'
+171104 22:50:49 [ERROR] /usr/sbin/mysqld: Table './contestg_live/general_users' is marked as crashed and should be repaired
+171104 22:50:49 [Warning] Checking table:   './contestg_live/general_users'
+171104 22:50:49 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members' is marked as crashed and should be repaired
+171104 22:50:49 [Warning] Checking table:   './contestg_live/members'
+171104 22:50:49 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members_contests_notes' is marked as crashed and should be repaired
+171104 22:50:49 [Warning] Checking table:   './contestg_live/members_contests_notes'
+171104 22:50:49 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members_contests_tmp_removed' is marked as crashed and should be repaired
+171104 22:50:49 [Warning] Checking table:   './contestg_live/members_contests_tmp_removed'
+171104 22:50:49 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members_contests_weeks' is marked as crashed and should be repaired
+171104 22:50:49 [Warning] Checking table:   './contestg_live/members_contests_weeks'
+171104 22:50:50 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members_picks' is marked as crashed and should be repaired
+171104 22:50:50 [Warning] Checking table:   './contestg_live/members_picks'
+171104 22:50:50 [Warning] Recovering table: './contestg_live/members_picks'
+171104 22:50:50 [ERROR] /usr/sbin/mysqld: Table './wordpress/contests' is marked as crashed and should be repaired
+171104 22:50:50 [Warning] Checking table:   './wordpress/contests'
+171104 22:50:50 [ERROR] /usr/sbin/mysqld: Table './wordpress/schedule' is marked as crashed and should be repaired
+171104 22:50:50 [Warning] Checking table:   './wordpress/schedule'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members_picks_contests' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/members_picks_contests'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/members_tbr_picks' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/members_tbr_picks'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/mm_bracket_picks' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/mm_bracket_picks'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/pickem_grading' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/pickem_grading'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/schedule' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/schedule'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/wt_odds_book' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/wt_odds_book'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/wt_odds_games' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/wt_odds_games'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_live/wt_scores_games' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_live/wt_scores_games'
+171104 22:50:58 [ERROR] Got an error from unknown thread, /build/mysql-5.5-m9NZCY/mysql-5.5-5.5.47/storage/myisam/ha_myisam.cc:912
+171104 22:50:58 [Warning] Recovering table: './contestg_live/wt_scores_games'
+171104 22:50:58 [Note] Found 6875 of 6869 rows when repairing './contestg_live/wt_scores_games'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_invoices' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_wlb_osga/cont_invoices'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_order_items' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_wlb_osga/cont_order_items'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_orders' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_wlb_osga/cont_orders'
+171104 22:50:58 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_predif_common2contests' is marked as crashed and should be repaired
+171104 22:50:58 [Warning] Checking table:   './contestg_wlb_osga/cont_predif_common2contests'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_restarts' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/cont_restarts'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_roster_settings' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/cont_roster_settings'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/cont_trash_talk' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/cont_trash_talk'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/contest_admins' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/contest_admins'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/contests' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/contests'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/contests_square_members' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/contests_square_members'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/contests_square_results' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/contests_square_results'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/general_users' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/general_users'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/members' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/members'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/schedule' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/schedule'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/wt_odds_book' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/wt_odds_book'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/wt_odds_games' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/wt_odds_games'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './contestg_wlb_osga/wt_scores_games' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './contestg_wlb_osga/wt_scores_games'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './phpmyadmin/pma_column_info' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './phpmyadmin/pma_column_info'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './phpmyadmin/pma_recent' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './phpmyadmin/pma_recent'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './phpmyadmin/pma_table_uiprefs' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './phpmyadmin/pma_table_uiprefs'
+171104 22:50:59 [ERROR] /usr/sbin/mysqld: Table './wordpress/cont_roster_settings' is marked as crashed and should be repaired
+171104 22:50:59 [Warning] Checking table:   './wordpress/cont_roster_settings'
+171105  1:13:04 [Note] /usr/sbin/mysqld: Normal shutdown
+
+171105  1:13:04 [Note] Event Scheduler: Purging the queue. 0 events
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2773  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2766  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2748  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2726  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2701  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2693  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2669  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2615  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2599  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2582  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2547  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2517  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2506  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2489  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2449  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2433  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2418  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2380  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2344  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2339  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2321  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2296  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2288  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2273  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2237  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2205  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2204  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2178  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2157  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2143  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2133  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2095  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2072  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2065  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2051  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2021  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 2006  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1983  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1953  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1926  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1917  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1836  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1763  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1697  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1617  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1539  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1450  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1398  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1322  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1255  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1167  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1089  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 1006  user: 'root'
+
+171105  1:13:06 [Warning] /usr/sbin/mysqld: Forcing close of thread 900  user: 'root'
+
+171105  1:13:06  InnoDB: Starting shutdown...
+171105  1:13:06  InnoDB: Waiting for 200 pages to be flushed
+171105  1:13:07  InnoDB: Shutdown completed; log sequence number 273747015805
+171105  1:13:07 [Note] /usr/sbin/mysqld: Shutdown complete
+
+171105  1:13:18 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+171105  1:13:18 [Note] Plugin 'FEDERATED' is disabled.
+171105  1:13:18 InnoDB: The InnoDB memory heap is disabled
+171105  1:13:18 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+171105  1:13:18 InnoDB: Compressed tables use zlib 1.2.8
+171105  1:13:18 InnoDB: Using Linux native AIO
+171105  1:13:18 InnoDB: Initializing buffer pool, size = 128.0M
+171105  1:13:18 InnoDB: Completed initialization of buffer pool
+171105  1:13:18 InnoDB: highest supported file format is Barracuda.
+171105  1:13:18  InnoDB: Waiting for the background threads to start
+171105  1:13:19 InnoDB: 5.5.47 started; log sequence number 273747015805
+171105  1:13:19 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+171105  1:13:19 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+171105  1:13:19 [Note] Server socket created on IP: '127.0.0.1'.
+171105  1:13:19 [Note] Event Scheduler: Loaded 0 events
+171105  1:13:19 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.47-0ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+171105  5:10:05 [Note] /usr/sbin/mysqld: Normal shutdown
+
+171105  5:10:05 [Note] Event Scheduler: Purging the queue. 0 events
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2331  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2257  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2226  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2217  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2200  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2176  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2158  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2151  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2126  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2100  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2072  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2052  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 2017  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1995  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1991  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1954  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1916  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1905  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1883  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1860  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1824  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1800  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1788  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1764  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1751  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1714  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1675  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1651  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1640  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1627  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1580  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1321  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1308  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1139  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1087  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1051  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1027  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 1018  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 992  user: 'root'
+
+171105  5:10:07 [Warning] /usr/sbin/mysqld: Forcing close of thread 840  user: 'root'
+
+171105  5:10:07  InnoDB: Starting shutdown...
+171105  5:10:08  InnoDB: Waiting for 200 pages to be flushed
+171105  5:10:08  InnoDB: Shutdown completed; log sequence number 275872386041
+171105  5:10:08 [Note] /usr/sbin/mysqld: Shutdown complete
+
+171105  5:10:20 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+171105  5:10:20 [Note] Plugin 'FEDERATED' is disabled.
+171105  5:10:20 InnoDB: The InnoDB memory heap is disabled
+171105  5:10:20 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+171105  5:10:20 InnoDB: Compressed tables use zlib 1.2.8
+171105  5:10:20 InnoDB: Using Linux native AIO
+171105  5:10:20 InnoDB: Initializing buffer pool, size = 128.0M
+171105  5:10:20 InnoDB: Completed initialization of buffer pool
+171105  5:10:20 InnoDB: highest supported file format is Barracuda.
+171105  5:10:20  InnoDB: Waiting for the background threads to start
+171105  5:10:21 InnoDB: 5.5.47 started; log sequence number 275872386041
+171105  5:10:21 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+171105  5:10:21 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+171105  5:10:21 [Note] Server socket created on IP: '127.0.0.1'.
+171105  5:10:21 [Note] Event Scheduler: Loaded 0 events
+171105  5:10:21 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.47-0ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)

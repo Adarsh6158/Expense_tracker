@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main{
+    width: 100vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    width: 300px;
+    height: 470px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 65px;
+    left: 820px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 270px;
+    font-family: sans-serif;
+    text-align: center;
+    color: maroon;
+    font-size: 22px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 300px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 300px;
+    height: 40px;
+    color: #00b894;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn em{
+    color: #000;
+    font-weight: bold;
+}
+em:hover{
+    background: #fff;
+    color: #00b894;
+} 
+.container {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hide the default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* custom radio button */
+  .check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    border: 3px solid darkgrey;
+  }
+  
+  .container:hover input ~ .check {
+    background-color: gray;
+  }
+  
+  .container input:checked ~ .check {
+    background-color:  #ff7200;
+  }
+  
+  .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .check:after {
+    display: block;
+  }
+  
+  .container .check:after {
+       top: 2px;
+      left: 2.5px;
+      width: 6px;
+      height: 7px;
+      border: solid white;
+      border-radius: 50%;
+      background: white;
+  }
+  label{
+    position :relative;
+    color:#fff;
+    display:flex;
+    font-family:'poppins',sans-serif;
+  }
