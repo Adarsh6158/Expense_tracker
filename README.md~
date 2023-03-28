@@ -1,1 +1,18 @@
 # budget-management-system
+Budget Management System-Website
+
+A simple but powerful Php script to manage your expense
+with multi-user level and permission.php expense manager
+designed to help individual or business budget,track and
+control your expense.it provide ability to group your
+income/expense .
+
+Features:
+
+User side- Mangage budget, Manage expenses,Manage categories  
+Admin side- Manage Inventory, Manage Users
+Tech Stack: HTML, CSS, Bootstrap, JavaScript, PHP, SQL, Apache Server (XAMPP)
+
+ 
+By,
+Adarsh 
