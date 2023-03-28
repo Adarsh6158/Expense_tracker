@@ -22,6 +22,8 @@ How to run this project locally
 changes credentials in sql.php file with your database credentials.
 
 5.open localhost in browser. you see the home page
+## Screenshot
+![Uploading Screenshot (55).png…]()
     
 ## Support
 
