@@ -23,7 +23,8 @@ changes credentials in sql.php file with your database credentials.
 
 5.open localhost in browser. you see the home page
 ## Screenshot
-![Uploading Screenshot (55).png…]()
+![Screenshot (55)](https://user-images.githubusercontent.com/119891550/228316793-f215c480-d331-491c-b873-88805fbff390.png)
+
     
 ## Support
 
