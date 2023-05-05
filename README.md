@@ -33,7 +33,7 @@ changes credentials in sql.php file with your database credentials.
     
 ## Support
 
-For support, email adarshkumar6158@gmail.com .
+For support, email adarsh6158@gmail.com .
 
 
 ## 🔗 Link\
