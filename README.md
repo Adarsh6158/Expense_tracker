@@ -23,7 +23,11 @@ changes credentials in sql.php file with your database credentials.
 
 5.open localhost in browser. you see the home page
 ## Screenshot
-![1](https://user-images.githubusercontent.com/119891550/228317903-fcde7f89-d106-4efc-8c6f-a6d4b848cc75.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/119891550/228317903-fcde7f89-d106-4efc-8c6f-a6d4b848cc75.png" alt="Screenshot 5" width="700">
+  <br>
+</p>
+
 ![2](https://user-images.githubusercontent.com/119891550/228317916-43fbc78b-05d5-42fb-9c53-04633995b21a.png)
 ![4](https://user-images.githubusercontent.com/119891550/228317938-66b1b31c-01ec-462f-a2fe-c5b1e7165807.png)
 ![3](https://user-images.githubusercontent.com/119891550/228317948-83da4110-9d76-4e8c-84f6-0d247e8d1282.png)
