@@ -1,11 +1,7 @@
 
-# Budget Management System
+# Expense Tracker
 
-A brief description of what this project is a simple but powerful Php script to manage your expense
-with multi-user level and permission.Php expense manager
-designed to help individual or business budget,track and
-control your expense.it provide ability to group your
-income/expense .
+The  Expense Tracker is a handy tool made with PHP to help you handle your money better. It's perfect for individuals and businesses. You can invite others to use it too. Keep track of what you spend, set budgets, and organize your income and expenses easily. It makes money management simple and effective!
 
 
 ## Installation
