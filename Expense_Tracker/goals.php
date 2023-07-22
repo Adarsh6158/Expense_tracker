@@ -1,41 +1,24 @@
-<!-- 
-<?php
-error_reporting(0);
-$conn=mysqli_connect("localhost","root","","expense_tracker")or die(mysqli_error());
-$sql3="SELECT username AS uname FROM USERS ";
-$result3=mysqli_query($conn,$sql3);
-while($row3=mysqli_fetch_assoc($result3)){
-    $output4=$row3['uname'];
-}
-echo "USERNAME is=$output4<br>";
 
-
-$sql1="SELECT SUM(amount_id) AS sum1 FROM BUDGET";
-$result1=mysqli_query($conn,$sql1);
-while($row1=mysqli_fetch_assoc($result1)){
-    $output1=$row1['sum1'];
-}
-echo "Total budget is=$output1<br>";
-// <br>
-$sql2="SELECT SUM(amount_pid) as sum2 FROM EXPENSES ";
-$result2=mysqli_query($conn,$sql2);
-while($row2=mysqli_fetch_assoc($result2)){
-    $output2=$row2['sum2'];
-}
-
-echo "Total expense is=$output2<br>";
-$output3=$output2-$output1;
-echo"Total debt is=$output3";
-
-?>
-</html> -->
 <?php
 include './Includes/Functions/functions.php';
 include './Includes/Functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
 
-$goals = $db->query("SELECT * FROM goals WHERE user_id = $user_id")->fetchAll();
+// Perform the query
+$sql = "SELECT * FROM goals WHERE user_id = $user_id";
+$result = mysqli_query($db, $sql);
+
+// Check for query execution errors
+if (!$result) {
+    die("Query failed: " . mysqli_error($db));
+}
+
+// Fetch the result as an associative array
+$goals = array();
+while ($row = mysqli_fetch_assoc($result)) {
+    $goals[] = $row;
+}
 ?><!DOCTYPE html>
 <html  >
     <head>

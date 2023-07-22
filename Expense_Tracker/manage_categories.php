@@ -3,8 +3,15 @@ include './Includes/Functions/functions.php';
 include './Includes/Functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
+// Perform the query
+$sql = "SELECT * FROM categories";
+$result = mysqli_query($db, $sql);
 
-$categories = $db->query("SELECT * FROM categories")->fetchAll();
+// Fetch the categories as an associative array
+$categories = array();
+while ($row = mysqli_fetch_assoc($result)) {
+    $categories[] = $row;
+}
 ?><!DOCTYPE html>
 <html  >
     <head>

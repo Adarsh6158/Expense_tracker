@@ -3,7 +3,22 @@ include './Includes/Functions/functions.php';
 include './Includes/Functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
-$debt = $db->query("SELECT BUDGET.AMOUNT_ID AS BUDGET,  EXPENSES.AMOUNT_PID AS EXPENSE ,(BUDGET.AMOUNT_ID-EXPENSES.AMOUNT_PID)AS DEBT,EXPENSES.DESCRIPTION AS DESCRIPTION  FROM BUDGET ,EXPENSES WHERE BUDGET.GOAL_ID=EXPENSES.DESCRIPTION AND BUDGET.user_id = $user_id ")->fetchAll();
+// Perform the query
+$sql = "SELECT BUDGET.AMOUNT_ID AS BUDGET, EXPENSES.AMOUNT_PID AS EXPENSE, (BUDGET.AMOUNT_ID-EXPENSES.AMOUNT_PID) AS DEBT, EXPENSES.DESCRIPTION AS DESCRIPTION
+        FROM BUDGET, EXPENSES
+        WHERE BUDGET.GOAL_ID=EXPENSES.DESCRIPTION AND BUDGET.user_id = $user_id";
+$result = mysqli_query($db, $sql);
+
+// Check for query execution errors
+if (!$result) {
+    die("Query failed: " . mysqli_error($conn));
+}
+
+// Fetch the result as an associative array
+$debt = array();
+while ($row = mysqli_fetch_assoc($result)) {
+    $debt[] = $row;
+}
 ?><!DOCTYPE html>
 <html  >
     <head>

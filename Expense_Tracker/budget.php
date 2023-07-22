@@ -3,7 +3,14 @@ include './Includes/Functions/functions.php';
 include './Includes/Functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
-$budget = $db->query("SELECT * FROM budget WHERE user_id = $user_id")->fetchAll();
+$sql = "SELECT * FROM budget WHERE user_id = $user_id";
+$result = mysqli_query($db, $sql);
+
+// Fetch the result as an associative array
+$budget = array();
+while ($row = mysqli_fetch_assoc($result)) {
+    $budget[] = $row;
+}
 ?><!DOCTYPE html>
 <html  >
     <head>

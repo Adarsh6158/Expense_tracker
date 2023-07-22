@@ -4,7 +4,14 @@ include './Includes/Functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
 
-$income = $db->query("SELECT * FROM income WHERE user_id = $user_id")->fetchAll();
+$sql = "SELECT * FROM income WHERE user_id = $user_id";
+$result = mysqli_query($db, $sql);
+
+// Fetch the result as an associative array
+$income = array();
+while ($row = mysqli_fetch_assoc($result)) {
+    $income[] = $row;
+}
 ?><!DOCTYPE html>
 <html  >
     <head>
