@@ -6,9 +6,8 @@ The  Expense Tracker is a handy tool made with PHP to help you handle your money
 🚀 Visit our website here and sign up for an account to embark on your journey to financial mastery!
 
 <p align="center">
-  <img src="https://expensetracker6158.000webhostapp.com/" >
+  <a="https://expensetracker6158.000webhostapp.com/" >
 </p>
-
 
 ## Installation
 
