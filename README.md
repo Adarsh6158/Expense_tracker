@@ -3,8 +3,10 @@
 
 The  Expense Tracker is a handy tool made with PHP to help you handle your money better. It's perfect for individuals and businesses. You can invite others to use it too. Keep track of what you spend, set budgets, and organize your income and expenses easily. It makes money management simple and effective!
 ## Website
+🚀 Visit our website here and sign up for an account to embark on your journey to financial mastery!
+
 <p align="center">
-  <img src="https://expensetracker6158.000webhostapp.com/" alt="Expense Tracker Demo">
+  <img src="https://expensetracker6158.000webhostapp.com/" >
 </p>
 
 
