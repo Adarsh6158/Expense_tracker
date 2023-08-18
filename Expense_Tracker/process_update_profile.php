@@ -6,7 +6,7 @@ $user_id = $_SESSION['user']['id'];
 $user = $params['user'];
 $username = $user['username'];
 
-// Check if the new username is already in use
+
 $check_username_query = "SELECT * FROM users WHERE username = '$username' AND id != $user_id";
 $check_username_result = mysqli_query($db, $check_username_query);
 $check_username = mysqli_fetch_assoc($check_username_result);
@@ -45,10 +45,10 @@ foreach ($user as $field => $value) {
 }
 $set_clause = rtrim($set_clause, ', ');
 
-// Construct the update query
+
 $sql = "UPDATE users SET $set_clause WHERE id = $user_id";
 
-// Perform the query
+
 if (mysqli_query($db, $sql)) {
     $_SESSION['SUCCESS'] = "Your profile has been updated successfully.";
 } else {
