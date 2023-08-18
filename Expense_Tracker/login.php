@@ -6,7 +6,8 @@ include './Includes/Functions/functions.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Budget management system</title>
+    <title>Expense Tracker</title>
+    <link rel="shortcut icon" href="rupee.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>

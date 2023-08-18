@@ -34,7 +34,9 @@ while ($row = mysqli_fetch_assoc($result)) {
 		    
 		    <?php
 		    if(!empty($budget)){
-			?><table class="table table-bordered table-striped table-condensed">
+			?>
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped table-condensed">
 			    <thead>
 				<tr>
 				    <th>ID</th>
@@ -53,8 +55,8 @@ while ($row = mysqli_fetch_assoc($result)) {
 				    <td><?=$bud['goal_id']?></td>
 					<td><?=$bud['amount_id']?></td>
 				    <td><?=date('Y-m-d ', strtotime($bud['date']))?></td>
-				    <td><a href="add_edit_budget.php?budget_id=<?=$bud['id']?>" class="btn btn-sm btn-primary btn_extra_small">Edit</a></td>
-				    <td><a onclick="return confirm('Are you sure you want to delete this category? This source of income will be deleted')" href="delete_budget.php?budget_id=<?=$bud['id']?>" class="btn btn-sm btn-primary btn_extra_small">Delete</a></td>
+				    <td><a href="add_edit_budget.php?budget_id=<?=$bud['id']?>" class="btn btn-sm btn-primary btn-block">Edit</a></td>
+				    <td><a onclick="return confirm('Are you sure you want to delete this category? This source of income will be deleted')" href="delete_budget.php?budget_id=<?=$bud['id']?>" class="btn btn-sm btn btn-sm btn-danger btn-block">Delete</a></td>
 				</tr><?php
 			    }
 			    ?>
@@ -65,6 +67,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 		    }
 		    ?>
 		    
+		</div>
 		</div>
 		<a href="add_edit_budget.php" class="btn btn-primary">Add BUDGET</a>
 	    </div>

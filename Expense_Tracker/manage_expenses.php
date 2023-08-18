@@ -110,7 +110,9 @@ while ($row = mysqli_fetch_assoc($result)) {
                 </div>
                 <?php
                 if (!empty($expenses)) {
-                    ?><table class="table table-bordered table-striped table-condensed">
+                    ?>
+                    <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-condensed">
                         <thead>
                             <tr>
                                 <th>ID</th>
@@ -137,7 +139,8 @@ while ($row = mysqli_fetch_assoc($result)) {
                             }
                             ?>
                         </tbody>
-                    </table><?php
+                    </table>
+                        </div><?php
                 } else {
                     ?><h4>No expenses added yet</h4><?php
                 }

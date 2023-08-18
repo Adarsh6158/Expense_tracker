@@ -179,7 +179,7 @@ while($row2=mysqli_fetch_assoc($result2)){
 		ele.style.display="block";
 		el.style.display="none";
 		html2pdf().set(opt).from(element).save('filename.pdf');
-		// ele.style.display="none";
+		
 	});
 	</script>
   </body>
