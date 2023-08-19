@@ -29,14 +29,13 @@ if (!empty($password) || !empty($confirm_password)) {
 
     unset($user['confirm_password']);
 
-    // Uncomment the next line if you want to encrypt the password before storing it.
-    // $user['password'] = md5($password);
+
 } else {
     unset($user['password']);
     unset($user['confirm_password']);
 }
 
-// Prepare the SET clause for the update query
+
 $set_clause = '';
 foreach ($user as $field => $value) {
     $field = mysqli_real_escape_string($db, $field);
