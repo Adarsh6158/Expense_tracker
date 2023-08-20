@@ -5,10 +5,9 @@ $user_id = $_SESSION['user']['id'];
 $sql = "SELECT e.*, c.name as category_name FROM expenses e LEFT JOIN categories c ON e.category_id = c.id WHERE user_id = $user_id ORDER BY datetime_added DESC LIMIT 5";
 
 
-// Perform the query
+
 $result = mysqli_query($db, $sql);
 
-// Fetch the results as an associative array
 $recent_expenses = array();
 while ($row = mysqli_fetch_assoc($result)) {
     $recent_expenses[] = $row;
