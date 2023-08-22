@@ -13,11 +13,7 @@ include './Includes/Functions/functions.php';
 	<section class="form cid-sMu0o96RY6" id="formbuilder-1o">
     
     
-	    <div class="container">
-		<div class="row">
-		    <div class="col-lg-8 mx-auto pb-5">
-			<h3 class="mbr-section-title mbr-fonts-style mb-0 display-2"><strong>Register</strong></h3>
-		    </div>
+	   
 		</div>
 		<div class="row">
 		    <div class="col-lg-8 mx-auto mbr-form">
@@ -41,7 +37,7 @@ include './Includes/Functions/functions.php';
 				    <button type="submit" class="btn btn-success display-7">Register Now</button>
 				</div>
 			    </div>
-			</form><!--Formbuilder Form-->
+			</form>
 		    </div>
 		</div>
 	    </div>
