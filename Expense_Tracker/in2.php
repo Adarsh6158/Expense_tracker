@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 include './Includes/Functions/functions.php';
 ?><!DOCTYPE html>
 <html  >
@@ -17,7 +17,7 @@ include './Includes/Functions/functions.php';
 		</div>
 		<div class="row">
 		    <div class="col-lg-8 mx-auto mbr-form">
-			<!--Formbuilder Form-->
+			
 			<form action="process_register.php" method="POST" class="mbr-form form-with-styler">
 			    <div class="form-row">
 
