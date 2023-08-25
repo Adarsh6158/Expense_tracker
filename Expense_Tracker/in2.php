@@ -10,10 +10,6 @@ include './Includes/Functions/functions.php';
 
 	<?php include './Includes/header.php'; ?>
 
-	
-    
-    
-	   
 		</div>
 		<div class="row">
 		    <div class="col-lg-8 mx-auto mbr-form">
