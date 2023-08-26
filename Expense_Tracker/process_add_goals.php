@@ -2,7 +2,7 @@
 include './Includes/Functions/Functions.php';
 include './Includes/Functions/auth.php';
 
-// Ensure that the form is submitted using POST method
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header("Location: add_edit_goals.php");
     die;
@@ -29,7 +29,7 @@ if(empty($goal['goal'])){
     die;
 }
 if ($update) {
-    // Construct the SET clause for the update query
+   
     $set_clause = '';
     foreach ($goal as $field => $value) {
         $field = mysqli_real_escape_string($db, $field);
@@ -38,20 +38,20 @@ if ($update) {
     }
     $set_clause = rtrim($set_clause, ', ');
 
-    // Construct the update query
+   
     $sql = "UPDATE goals SET $set_clause WHERE id = $goal_id";
 
-    // Perform the query
+    
     if (mysqli_query($db, $sql)) {
-        // Update successful
+       
     } else {
-        // Update failed
+      
         $_SESSION['ERROR'] = "Error updating goal: " . mysqli_error($db);
         header("Location: add_edit_goals.php?goal_id=$goal_id");
         die;
     }
 } else {
-    // Insert new goal
+   
     $goal['date'] = get_datetime();
     
     // Construct the INSERT query based on the $goal array
