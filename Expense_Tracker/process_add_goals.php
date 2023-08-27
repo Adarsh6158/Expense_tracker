@@ -54,16 +54,16 @@ if ($update) {
    
     $goal['date'] = get_datetime();
     
-    // Construct the INSERT query based on the $goal array
+    
     $fields = implode(',', array_keys($goal));
     $values = "'" . implode("','", array_values($goal)) . "'";
     $sql = "INSERT INTO goals ($fields) VALUES ($values)";
 
-    // Perform the query
+    
     if (mysqli_query($db, $sql)) {
-        // Insert successful
+        
     } else {
-        // Insert failed
+      
         $_SESSION['ERROR'] = "Error inserting goal: " . mysqli_error($conn);
         header("Location: add_edit_goals.php");
         die;
