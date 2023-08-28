@@ -58,10 +58,8 @@ if ($update) {
     $fields = implode(',', array_keys($goal));
     $values = "'" . implode("','", array_values($goal)) . "'";
     $sql = "INSERT INTO goals ($fields) VALUES ($values)";
-
     
     if (mysqli_query($db, $sql)) {
-        
     } else {
       
         $_SESSION['ERROR'] = "Error inserting goal: " . mysqli_error($conn);
