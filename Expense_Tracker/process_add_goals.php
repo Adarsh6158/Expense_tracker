@@ -53,8 +53,6 @@ if ($update) {
 } else {
    
     $goal['date'] = get_datetime();
-    
-    
     $fields = implode(',', array_keys($goal));
     $values = "'" . implode("','", array_values($goal)) . "'";
     $sql = "INSERT INTO goals ($fields) VALUES ($values)";
